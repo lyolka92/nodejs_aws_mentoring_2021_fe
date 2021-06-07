@@ -2,8 +2,8 @@
 
 | Description | URL |
 | --- | --- |
-| CloudFront | https://d2qqp6mp5kk9ad.cloudfront.net |
-| S3 | http://oserova-my-second-app.s3-website-us-east-1.amazonaws.com |
+| CloudFront | https://d2ievgwq6onjxx.cloudfront.net |
+| S3 | http://oserova-my-shop.s3-website-eu-west-1.amazonaws.com |
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
