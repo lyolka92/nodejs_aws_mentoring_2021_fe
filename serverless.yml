@@ -18,7 +18,7 @@ plugins:
 
 custom:
   client:
-    bucketName: oserova-my-shop
+    bucketName: stone-shop
     distributionFolder: build
   s3BucketName: ${self:custom.client.bucketName}
 
