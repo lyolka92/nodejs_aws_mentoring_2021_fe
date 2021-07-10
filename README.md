@@ -1,3 +1,10 @@
+## Task 2: How to serve SPA in AWS
+
+| Description | URL |
+| --- | --- |
+| CloudFront | https://d1uk9b5ny7ilp9.cloudfront.net |
+| S3 | http://stone-shop.s3-website-eu-west-1.amazonaws.com |
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
