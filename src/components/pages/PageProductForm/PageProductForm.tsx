@@ -33,6 +33,7 @@ const Form = (props: FormikProps<FormikValues>) => {
     // onGetCitizen,
     // shouldConfirmLeave,
   } = props;
+  const history = useHistory();
 
   return (
     <form onSubmit={handleSubmit} autoComplete="off">
@@ -92,6 +93,7 @@ const Form = (props: FormikProps<FormikValues>) => {
         <Grid item container xs={12} justify="space-between">
           <Button
             color="primary"
+            onClick={() => history.push('/admin/products')}
           >
             Cancel
           </Button>
