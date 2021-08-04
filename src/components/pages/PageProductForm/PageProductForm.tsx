@@ -141,7 +141,14 @@ export default function PageProductForm() {
     }
     axios.get(`${API_PATHS.bff}/products/${id}`)
       .then(res => {
-        setProduct(res.data);
+        setProduct({
+          title: res.data.title,
+          description: res.data.description,
+          id: res.data.id,
+          src: res.data.src,
+          amount: res.data.count,
+          price: res.data.price
+        });
         setIsLoading(false);
       });
   }, [id])
